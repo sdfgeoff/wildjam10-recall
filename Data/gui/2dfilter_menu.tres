@@ -1,0 +1,12 @@
+[gd_resource type="ShaderMaterial" load_steps=2 format=2]
+
+[ext_resource path="res://gui/filter.shader" type="Shader" id=1]
+
+[resource]
+shader = ExtResource( 1 )
+shader_param/lens_vignette = Vector3( -0.1, -0.2, 0.03 )
+shader_param/lens_chromatic_aberation = Vector3( 0.012, -0.01, 0 )
+shader_param/lens_radial_distortion = Vector3( 0.2, -0.07, 0 )
+shader_param/lens_zoom_factor = 1.0
+shader_param/hue_shift_probability = 0.0
+shader_param/sensor_pixel_noise = Vector3( 0.02, 0.05, 5 )

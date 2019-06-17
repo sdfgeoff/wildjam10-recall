@@ -10,7 +10,7 @@ import time
 
 ESCN_PATH = os.path.join(
     os.path.dirname(os.path.abspath(__file__)),
-    "godot-blender-exporter"
+    "blender-exporter"
 )
 sys.path = [ESCN_PATH] + sys.path  # Ensure exporter from this folder
 from io_scene_godot import export

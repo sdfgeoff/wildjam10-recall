@@ -1,0 +1,97 @@
+[gd_scene load_steps=9 format=2]
+
+[ext_resource path="res://models/relic-column.escn" type="PackedScene" id=1]
+[ext_resource path="res://player/Player.tscn" type="PackedScene" id=2]
+[ext_resource path="res://models/flatblock.tscn" type="PackedScene" id=3]
+[ext_resource path="res://models/stairtest.tscn" type="PackedScene" id=4]
+[ext_resource path="res://models/block.escn" type="PackedScene" id=5]
+[ext_resource path="res://models/relic-column-long.escn" type="PackedScene" id=6]
+[ext_resource path="res://models/relic-fan.tscn" type="PackedScene" id=7]
+[ext_resource path="res://models/exit.tscn" type="PackedScene" id=8]
+
+[node name="Spatial" type="Spatial"]
+
+[node name="DirectionalLight" type="DirectionalLight" parent="."]
+transform = Transform( 1, 0, 0, 0, -4.37114e-08, 1, 0, -1, -4.37114e-08, 0, 3, 0 )
+shadow_enabled = true
+
+[node name="Scene Root" parent="." instance=ExtResource( 4 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.756, 4.875 )
+target_position = NodePath("Target")
+
+[node name="Target" type="Spatial" parent="Scene Root"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.563225, -5.99 )
+
+[node name="Scene Root3" parent="." instance=ExtResource( 4 )]
+transform = Transform( -0.00317887, 0, 0.999995, 0, 1, 0, -0.999995, 0, -0.00317887, 4.91025, 4.31315, 8.11308 )
+target_position = NodePath("Target")
+
+[node name="Target" type="Spatial" parent="Scene Root3"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 4.37582, -1.57269, -0.104512 )
+
+[node name="Scene Root8" parent="." instance=ExtResource( 4 )]
+transform = Transform( 0.321092, -0.913679, 0.249178, -0.899137, -0.211481, 0.383181, -0.297408, -0.347081, -0.889428, 8.6521, 6.7787, 3.25064 )
+target_position = NodePath("Target")
+
+[node name="Target" type="Spatial" parent="Scene Root8"]
+transform = Transform( 0.33016, -2.98023e-08, -0.943925, 2.98023e-08, 1, -6.51926e-09, 0.943925, -8.9407e-08, 0.33016, -2.19731, 7.48923, -7.26219 )
+
+[node name="Scene Root2" parent="." instance=ExtResource( 5 )]
+
+[node name="Scene Root4" parent="." instance=ExtResource( 5 )]
+transform = Transform( 1, 0, 0, 0, -4.37114e-08, 1, 0, -1, -4.37114e-08, 0, 9, 10 )
+
+[node name="Scene Root16" parent="." instance=ExtResource( 5 )]
+transform = Transform( 1, 0, 0, 0, -4.37114e-08, 1, 0, -1, -4.37114e-08, 0, 27.3846, 10 )
+
+[node name="Scene Root5" parent="." instance=ExtResource( 5 )]
+transform = Transform( 1, 0, 0, 0, -4.37114e-08, 1, 0, -1, -4.37114e-08, 0, 9, -10 )
+
+[node name="Scene Root17" parent="." instance=ExtResource( 5 )]
+transform = Transform( 1, 0, 0, 0, -0.684857, 0.728677, 0, -0.728677, -0.684857, 0, 0.897061, -10 )
+
+[node name="Scene Root18" parent="." instance=ExtResource( 5 )]
+transform = Transform( 1, 0, 0, 0, 0.564677, 0.825312, 0, -0.825312, 0.564677, 0, 0.89706, 9.63672 )
+
+[node name="Scene Root15" parent="." instance=ExtResource( 5 )]
+transform = Transform( 1, 0, 0, 0, -4.37114e-08, 1, 0, -1, -4.37114e-08, 0, 27.3846, -10 )
+
+[node name="Scene Root6" parent="." instance=ExtResource( 5 )]
+transform = Transform( -4.37114e-08, 1, 4.37114e-08, 0, -4.37114e-08, 1, 1, 4.37114e-08, 1.91069e-15, 10, 9, 0 )
+
+[node name="Scene Root13" parent="." instance=ExtResource( 5 )]
+transform = Transform( -4.37114e-08, 1, 4.37114e-08, 0, -4.37114e-08, 1, 1, 4.37114e-08, 1.91069e-15, 10, 27.3846, 0 )
+
+[node name="Scene Root7" parent="." instance=ExtResource( 5 )]
+transform = Transform( -4.37114e-08, 1, 4.37114e-08, 0, -4.37114e-08, 1, 1, 4.37114e-08, 1.91069e-15, -10, 9, 0 )
+
+[node name="Scene Root14" parent="." instance=ExtResource( 5 )]
+transform = Transform( -4.37114e-08, 1, 4.37114e-08, 0, -4.37114e-08, 1, 1, 4.37114e-08, 1.91069e-15, -10, 27.3846, 0 )
+
+[node name="Spatial" parent="." instance=ExtResource( 2 )]
+transform = Transform( 1.31134e-07, 0, -1, 0, 1, 0, 1, 0, 1.31134e-07, -7, 1, -2 )
+
+[node name="Scene Root10" parent="." instance=ExtResource( 3 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 7.87124, 8.46878, -2.19881 )
+target_position = NodePath("Spatial2")
+
+[node name="Spatial2" type="Spatial" parent="Scene Root10"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1.15337, 0, 10.0505 )
+
+[node name="Scene Root11" parent="." instance=ExtResource( 8 )]
+transform = Transform( -4.37114e-08, 0, -1, 0, 1, 0, 1, 0, -4.37114e-08, 8.7075, 8.85642, -2.42605 )
+
+[node name="Scene Root12" parent="." instance=ExtResource( 6 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 9, 0.999575, -2.42808 )
+
+[node name="Scene Root" parent="Scene Root12" instance=ExtResource( 6 )]
+transform = Transform( 1, 0, 0, 0, -4.37114e-08, -1, 0, 1, -4.37114e-08, -0.0209818, 0, 1.36261 )
+
+[node name="Scene Root" parent="Scene Root12/Scene Root" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 2.13163e-14, 0, 0, 1, 0, 7.97191, -3.57628e-07 )
+
+[node name="Scene Root2" parent="Scene Root12" instance=ExtResource( 6 )]
+transform = Transform( 1, 0, 0, 0, -4.37114e-08, -1, 0, 1, -4.37114e-08, -0.0209818, 0, -6.62011 )
+
+[node name="Scene Root9" parent="." instance=ExtResource( 7 )]
+transform = Transform( 1.87, 0, 0, 0, 1.87, 0, 0, 0, 1.87, 0, 35, 0 )

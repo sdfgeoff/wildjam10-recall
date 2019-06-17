@@ -1,0 +1,13 @@
+[gd_resource type="ShaderMaterial" load_steps=3 format=2]
+
+[ext_resource path="res://materials/distort_platform.shader" type="Shader" id=1]
+[ext_resource path="res://materials/clouds.png" type="Texture" id=2]
+
+[resource]
+shader = ExtResource( 1 )
+shader_param/distort_amount = 0.0
+shader_param/highlight = Color( 0.027451, 0.988235, 0.764706, 0 )
+shader_param/PHI = 0.161803
+shader_param/PI = 0.314159
+shader_param/SQ2 = 141421.0
+shader_param/normalmap = ExtResource( 2 )

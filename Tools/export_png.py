@@ -15,6 +15,7 @@ def export_png(out_file, res_percent):
     bpy.context.scene.render.filepath = out_file
     bpy.ops.render.render(write_still=True)
 
+
 def main(args):
     """Searches for blend files and exports them"""
     parser = argparse.ArgumentParser("Converts lots of blend files")
@@ -22,7 +23,9 @@ def main(args):
     config = parser.parse_args(args)
 
 
-    prefix = bpy.data.filepath.split('.')[0]
+    pathparts = os.path.split(bpy.data.filepath)
+    prefix = os.path.join(pathparts[0], pathparts[1].split('.')[0])
+    print("HERE", prefix)
     outimage = prefix + '.png'
     export_png(outimage, config.resolution)
 

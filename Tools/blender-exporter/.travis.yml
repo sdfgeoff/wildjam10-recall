@@ -1,0 +1,19 @@
+language: python
+python:
+    - 3.4
+
+cache:
+    directories:
+        - $HOME/.blender-cache
+
+before_install:
+    - sudo apt-get update
+    - sudo apt-get install --no-install-recommends -y libsdl1.2debian python3-pip
+    - sudo pip3 install -r requirements.txt
+
+install:
+    - tests/install_blender.sh
+    - source .envs
+
+script:
+    - make all BLENDER=$BLENDER_BIN PYLINT=pylint PEP8=pycodestyle

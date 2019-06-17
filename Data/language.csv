@@ -1,0 +1,14 @@
+,en
+RECALL,RECALL
+START,Start
+SETTINGS,Settings
+QUIT,Quit
+BACK,Back
+PAUSED,Paused
+MENU,Menu
+RESUME,Resume
+ENABLEPOSTFX,Enable Post Effects
+ENABLEFULLSCREEN,Fullscreen
+INVERTMOUSE,Invert Mouse Y
+MOUSESENSITIVITY,Mouse Sensitivity
+BYSDFGEOFF,Created by sdfgeoff for Godot Wildjam #10. Inspired by the two unreleased games: Memories of a Broken Dimension (XRA) and Null Operator (Anton Hand)

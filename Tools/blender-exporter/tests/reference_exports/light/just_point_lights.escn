@@ -1,0 +1,131 @@
+[gd_scene load_steps=1 format=2]
+
+[sub_resource id=1 type="ArrayMesh"]
+
+resource_name = "Cube000"
+surfaces/0 = {
+	"primitive":4,
+	"arrays":[
+		Vector3Array(-1.0, 1.0, 1.0, -1.0, -1.0, -1.0, -1.0, -1.0, 1.0, -1.0, 1.0, -1.0, 1.0, -1.0, -1.0, -1.0, -1.0, -1.0, 1.0, 1.0, -1.0, 1.0, -1.0, 1.0, 1.0, -1.0, -1.0, 1.0, 1.0, 1.0, -1.0, -1.0, 1.0, 1.0, -1.0, 1.0, 1.0, -1.0, -1.0, -1.0, -1.0, 1.0, -1.0, -1.0, -1.0, -1.0, 1.0, -1.0, 1.0, 1.0, 1.0, 1.0, 1.0, -1.0, -1.0, 1.0, -1.0, 1.0, 1.0, -1.0, 1.0, 1.0, 1.0, -1.0, 1.0, 1.0, 1.0, -1.0, 1.0, -1.0, 1.0, 1.0),
+		Vector3Array(-1.0, 0.0, 0.0, -1.0, 0.0, 0.0, -1.0, 0.0, 0.0, 0.0, 0.0, -1.0, 0.0, 0.0, -1.0, 0.0, 0.0, -1.0, 1.0, 0.0, 0.0, 1.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 1.0, 0.0, 0.0, 1.0, 0.0, -1.0, 0.0, 0.0, -1.0, 0.0, 0.0, -1.0, 0.0, 0.0, 1.0, 0.0, 0.0, 1.0, 0.0, 0.0, 1.0, 0.0, -1.0, 0.0, 0.0, 0.0, 0.0, -1.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, -1.0, 0.0, 0.0, 1.0, 0.0),
+		null, ; No Tangents,
+		null, ; no Vertex Colors,
+		null, ; No UV1,
+		null, ; No UV2,
+		null, ; No Bones,
+		null, ; No Weights,
+		IntArray(0, 2, 1, 3, 5, 4, 6, 8, 7, 9, 11, 10, 12, 14, 13, 15, 17, 16, 0, 1, 18, 3, 4, 19, 6, 7, 20, 9, 10, 21, 12, 13, 22, 15, 16, 23)
+	],
+	"morph_arrays":[]
+}
+
+[sub_resource id=2 type="ArrayMesh"]
+
+resource_name = "Cube001"
+surfaces/0 = {
+	"primitive":4,
+	"arrays":[
+		Vector3Array(-1.0, 1.0, 1.0, -1.0, -1.0, -1.0, -1.0, -1.0, 1.0, -1.0, 1.0, -1.0, 1.0, -1.0, -1.0, -1.0, -1.0, -1.0, 1.0, 1.0, -1.0, 1.0, -1.0, 1.0, 1.0, -1.0, -1.0, 1.0, 1.0, 1.0, -1.0, -1.0, 1.0, 1.0, -1.0, 1.0, 1.0, -1.0, -1.0, -1.0, -1.0, 1.0, -1.0, -1.0, -1.0, -1.0, 1.0, -1.0, 1.0, 1.0, 1.0, 1.0, 1.0, -1.0, -1.0, 1.0, -1.0, 1.0, 1.0, -1.0, 1.0, 1.0, 1.0, -1.0, 1.0, 1.0, 1.0, -1.0, 1.0, -1.0, 1.0, 1.0),
+		Vector3Array(-1.0, 0.0, 0.0, -1.0, 0.0, 0.0, -1.0, 0.0, 0.0, 0.0, 0.0, -1.0, 0.0, 0.0, -1.0, 0.0, 0.0, -1.0, 1.0, 0.0, 0.0, 1.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 1.0, 0.0, 0.0, 1.0, 0.0, -1.0, 0.0, 0.0, -1.0, 0.0, 0.0, -1.0, 0.0, 0.0, 1.0, 0.0, 0.0, 1.0, 0.0, 0.0, 1.0, 0.0, -1.0, 0.0, 0.0, 0.0, 0.0, -1.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, -1.0, 0.0, 0.0, 1.0, 0.0),
+		null, ; No Tangents,
+		null, ; no Vertex Colors,
+		null, ; No UV1,
+		null, ; No UV2,
+		null, ; No Bones,
+		null, ; No Weights,
+		IntArray(0, 2, 1, 3, 5, 4, 6, 8, 7, 9, 11, 10, 12, 14, 13, 15, 17, 16, 0, 1, 18, 3, 4, 19, 6, 7, 20, 9, 10, 21, 12, 13, 22, 15, 16, 23)
+	],
+	"morph_arrays":[]
+}
+
+[sub_resource id=3 type="ArrayMesh"]
+
+resource_name = "Plane"
+surfaces/0 = {
+	"primitive":4,
+	"arrays":[
+		Vector3Array(1.0, 0.0, 1.0, -1.0, 0.0, -1.0, -1.0, 0.0, 1.0, 1.0, 0.0, -1.0),
+		Vector3Array(0.0, 1.0, 0.0, 0.0, 1.0, 0.0, 0.0, 1.0, 0.0, 0.0, 1.0, 0.0),
+		null, ; No Tangents,
+		null, ; no Vertex Colors,
+		null, ; No UV1,
+		null, ; No UV2,
+		null, ; No Bones,
+		null, ; No Weights,
+		IntArray(0, 2, 1, 0, 1, 3)
+	],
+	"morph_arrays":[]
+}
+[node type="Spatial" name="Scene"]
+
+
+[node name="Lamp003" type="OmniLight" parent="."]
+
+light_specular = 1.0
+light_energy = 1.0
+light_color = Color(0.836064, 0.0264334, 1.0, 1.0)
+shadow_color = Color(0.0, 0.0, 0.0, 1.0)
+omni_range = 5.0
+transform = Transform(1.0, 0.0, 0.0, 0.0, -4.37114e-08, 1.0, 0.0, -1.0, -4.37114e-08, 0.0, 0.4, 1.0)
+shadow_enabled = true
+light_negative = false
+
+[node name="Cube001" type="MeshInstance" parent="."]
+
+mesh = SubResource(1)
+visible = true
+transform = Transform(0.3, 0.0, 0.0, 0.0, 0.6, 0.0, 0.0, 0.0, 0.3, 0.0, 0.0, 0.355257)
+
+[node name="Cube" type="MeshInstance" parent="."]
+
+mesh = SubResource(2)
+visible = true
+transform = Transform(0.3, 0.0, 0.0, 0.0, 0.6, 0.0, 0.0, 0.0, 0.3, -2.0, 0.0, 0.355257)
+
+[node name="Lamp002" type="OmniLight" parent="."]
+
+light_specular = 1.0
+light_energy = 1.0
+light_color = Color(0.0, 1.0, 0.064745, 1.0)
+shadow_color = Color(0.0, 0.0, 0.0, 1.0)
+omni_range = 5.0
+transform = Transform(1.0, 0.0, 0.0, 0.0, -4.37114e-08, 1.0, 0.0, -1.0, -4.37114e-08, -2.0, 0.4, 1.0)
+shadow_enabled = false
+light_negative = false
+
+[node name="Lamp001" type="OmniLight" parent="."]
+
+light_specular = 1.0
+light_energy = 1.0
+light_color = Color(1.0, 0.0, 0.0, 1.0)
+shadow_color = Color(0.0, 0.0, 0.0, 1.0)
+omni_range = 2.0
+transform = Transform(1.0, 0.0, 0.0, 0.0, -4.37114e-08, 1.0, 0.0, -1.0, -4.37114e-08, -6.0, 1.0, 3.0)
+shadow_enabled = false
+light_negative = false
+
+[node name="Plane" type="MeshInstance" parent="."]
+
+mesh = SubResource(3)
+visible = true
+transform = Transform(10.0, 0.0, 0.0, 0.0, 10.0, 0.0, 0.0, 0.0, 10.0, 0.0, 0.0, 0.0)
+
+[node name="Lamp" type="OmniLight" parent="."]
+
+light_specular = 1.0
+light_energy = 1.0
+light_color = Color(1.0, 1.0, 1.0, 1.0)
+shadow_color = Color(0.0, 0.0, 0.0, 1.0)
+omni_range = 2.0
+transform = Transform(1.0, 0.0, 0.0, 0.0, -4.37114e-08, 1.0, 0.0, -1.0, -4.37114e-08, -6.0, 1.0, 0.0)
+shadow_enabled = false
+light_negative = false
+
+[node name="Camera" type="Camera" parent="."]
+
+far = 100.0
+near = 0.1
+size = 7.31429
+projection = 0
+fov = 49.1343
+transform = Transform(0.685921, -0.324014, 0.651558, 0.0, 0.895396, 0.445271, -0.727676, -0.305421, 0.61417, 7.48113, 5.34367, 6.50764)
