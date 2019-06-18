@@ -3,7 +3,7 @@
 [ext_resource path="res://scripts/Platform.gd" type="Script" id=1]
 [ext_resource path="res://models/rock-arch.escn" type="PackedScene" id=2]
 
-[node name="Scene Root" index="0" instance=ExtResource( 2 )]
+[node name="Scene Root" instance=ExtResource( 2 )]
 script = ExtResource( 1 )
 collision_shape_path = NodePath("hitboxPhysics/hitboxCollision")
 mesh_obj = NodePath("Cube")

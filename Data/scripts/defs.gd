@@ -1,7 +1,8 @@
 extends Node
 
 const LEVELS = [
-	"res://levels/Level1.tscn"
+	"res://levels/Level1.tscn",
+	"res://levels/Level2.tscn"
 ]
 
 const ALPHABET = [

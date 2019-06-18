@@ -18,7 +18,7 @@ camera_path = NodePath("Neck/Camera")
 neck_path = NodePath("Neck")
 
 [node name="Neck" type="Spatial" parent="."]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.50736, 0 )
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.8, 0 )
 
 [node name="Camera" type="Camera" parent="Neck"]
 current = true
